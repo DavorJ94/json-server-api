@@ -1,0 +1,418 @@
+{
+  "Dishes": [
+    {
+      "title": "Beverages",
+      "hashUrl": "beverages",
+      "snippet": "Served all day",
+      "subitems": [
+        {
+          "title": "Coffee",
+          "snippet": "100% organic",
+          "dishes": [
+            {
+              "title": "Caffe Americano",
+              "snippet": "Black coffee",
+              "price": "1.95",
+              "favorite": false,
+              "preparation": ["local", "vegetarian", "vegan"],
+              "contains": [],
+              "mayContain": []
+            },
+            {
+              "title": "Cappuccino",
+              "snippet": "An espresso-based coffee drink that originated in Italy, and is traditionally prepared with steamed milk foam.",
+              "price": "2.50",
+              "favorite": false,
+              "preparation": ["organic", "vegan", "local", "vegetarian"],
+              "contains": [],
+              "mayContain": ["wheat", "soya", "eggs", "milk"]
+            },
+            {
+              "title": "Café solo",
+              "snippet": "Small cup of strong, black espresso",
+              "price": "1.50",
+              "favorite": false,
+              "preparation": ["organic", "vegan", "local", "vegetarian"],
+              "contains": [],
+              "mayContain": []
+            }
+          ]
+        },
+        {
+          "title": "Tea",
+          "snippet": "Warm and refreshing",
+          "dishes": [
+            {
+              "title": "Mint Tea",
+              "snippet": "Made from fresh leaves",
+              "price": "2.50",
+              "favorite": false,
+              "preparation": ["local", "vegetarian", "vegan", "organic"],
+              "contains": [],
+              "mayContain": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Cocktails",
+      "hashUrl": "cocktails",
+      "snippet": "Served from 11:00 till 02:00",
+      "subitems": [
+        {
+          "title": "",
+          "snippet": "",
+          "dishes": [
+            {
+              "title": "Mojito",
+              "snippet": "The simple mix of white rum, lime juice, cane sugar, soda and muddled mint.",
+              "price": "8.50",
+              "favorite": false,
+              "preparation": ["organic", "vegetarian", "vegan"],
+              "contains": [],
+              "mayContain": []
+            },
+            {
+              "title": "Old Fashioned",
+              "snippet": "Made with bourbon, a sugar cube, Angostura bitters, a thick cube of ice, and an orange twist.",
+              "price": "12.50",
+              "favorite": false,
+              "preparation": ["organic", "vegan", "vegetarian"],
+              "contains": [],
+              "mayContain": []
+            },
+            {
+              "title": "Negroni",
+              "snippet": "Gin, Campari, and vermouth in a perfect, punchy package.",
+              "price": "9.50",
+              "favorite": false,
+              "preparation": ["organic", "vegan", "vegetarian"],
+              "contains": [],
+              "mayContain": []
+            },
+            {
+              "title": "Daiquiri",
+              "snippet": "Made with white rum, lime juice, and simple syrup is a clean and refreshing drink for any occasion.",
+              "price": "12.50",
+              "favorite": false,
+              "preparation": ["local", "vegan", "vegetarian"],
+              "contains": [],
+              "mayContain": []
+            },
+            {
+              "title": "Margarita",
+              "snippet": "Tangy simplicity, is probably the most well-known tequila cocktail in the world.",
+              "price": "9.50",
+              "favorite": false,
+              "preparation": ["local", "vegan", "vegetarian"],
+              "contains": [],
+              "mayContain": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Appetizers",
+      "hashUrl": "appetizers",
+      "snippet": "Served from 14:00 till 23:00",
+      "subitems": [
+        {
+          "title": "Warm Appetizers",
+          "snippet": "",
+          "dishes": [
+            {
+              "title": "Chili Calamari",
+              "snippet": "Crisp, golden squid rings with coriander, peanuts and chili for an easy seafood starter.",
+              "price": "8.50",
+              "favorite": false,
+              "preparation": ["organic", "local"],
+              "contains": ["fish", "peanut"],
+              "mayContain": ["treenut", "crustacens"]
+            },
+            {
+              "title": "Omelette with vegetables",
+              "snippet": "Local eggs, local vegetables and green peppers.",
+              "price": "7.50",
+              "favorite": false,
+              "preparation": ["organic", "vegetarian", "local"],
+              "contains": ["milk", "eggs"],
+              "mayContain": ["peanut", "sesame", "treenut"]
+            }
+          ]
+        },
+        {
+          "title": "Salads",
+          "snippet": "",
+          "dishes": [
+            {
+              "title": "Caesar Salad",
+              "snippet": "A classic chicken salad, featuring crunchy croutons and a creamy, garlic dressing.",
+              "price": "12.50",
+              "favorite": false,
+              "preparation": ["organic", "local"],
+              "contains": [],
+              "mayContain": ["sesame", "lupin", "treenut"]
+            },
+            {
+              "title": "Farmer Salad",
+              "snippet": "A Greek salad with lattus, tomato, unions, feta and olives.",
+              "price": "12.50",
+              "favorite": false,
+              "preparation": ["organic", "raw", "vegan", "vegetarian", "local"],
+              "contains": [],
+              "mayContain": ["soya", "sesame", "milk", "wheat"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Main Course",
+      "hashUrl": "main-course",
+      "snippet": "Served from 14:00 till 23:00",
+      "subitems": [
+        {
+          "title": "Fish",
+          "snippet": "All fish dishes are served with rice or grilled potatoes salad.",
+          "dishes": [
+            {
+              "title": "Grilled Dorade",
+              "snippet": "Fresh Dorade, Grilled on the BBQ.",
+              "price": "17.95",
+              "favorite": false,
+              "preparation": ["organic", "local", "vegetarian", "raw"],
+              "contains": ["fish"],
+              "mayContain": ["sesame", "mustard"]
+            },
+            {
+              "title": "Grilled Dorade",
+              "snippet": "Fresh Dorade, Grilled on the BBQ.",
+              "price": "17.95",
+              "favorite": false,
+              "preparation": ["organic", "local", "vegetarian", "raw"],
+              "contains": ["fish"],
+              "mayContain": ["sesame", "mustard"]
+            },
+            {
+              "title": "Grilled Dorade",
+              "snippet": "Fresh Dorade, Grilled on the BBQ.",
+              "price": "17.95",
+              "favorite": false,
+              "preparation": ["organic", "local", "vegetarian", "raw"],
+              "contains": ["fish"],
+              "mayContain": ["sesame", "mustard"]
+            },
+            {
+              "title": "Grilled Dorade",
+              "snippet": "Fresh Dorade, Grilled on the BBQ.",
+              "price": "17.95",
+              "favorite": false,
+              "preparation": ["organic", "local", "vegetarian", "raw"],
+              "contains": ["fish"],
+              "mayContain": ["sesame", "mustard", "sesame"]
+            },
+            {
+              "title": "Grilled Dorade",
+              "snippet": "Fresh Dorade, Grilled on the BBQ.",
+              "price": "17.95",
+              "favorite": false,
+              "preparation": ["organic", "local", "vegetarian"],
+              "contains": ["fish"],
+              "mayContain": ["sesame", "mustard", "wheat", "sesame"]
+            },
+            {
+              "title": "Grilled Dorade",
+              "snippet": "Fresh Dorade, Grilled on the BBQ.",
+              "price": "17.95",
+              "favorite": false,
+              "preparation": ["organic", "local", "vegetarian"],
+              "contains": ["fish"],
+              "mayContain": ["sesame", "mustard", "wheat", "sesame"]
+            },
+            {
+              "title": "Grilled Dorade",
+              "snippet": "Fresh Dorade, Grilled on the BBQ.",
+              "price": "17.95",
+              "favorite": false,
+              "preparation": ["organic", "local", "vegetarian"],
+              "contains": ["fish"],
+              "mayContain": ["sesame", "mustard", "wheat", "sesame"]
+            },
+            {
+              "title": "Grilled Dorade",
+              "snippet": "Fresh Dorade, Grilled on the BBQ.",
+              "price": "17.95",
+              "favorite": false,
+              "preparation": ["organic", "local", "vegetarian"],
+              "contains": ["fish"],
+              "mayContain": ["sesame", "mustard", "wheat", "sesame"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Desserts",
+      "hashUrl": "desserts",
+      "snippet": "Served all day.",
+      "subitems": [
+        {
+          "title": "",
+          "snippet": "",
+          "dishes": [
+            {
+              "title": "Tiramisu",
+              "snippet": "Homemade vegan tiramisu",
+              "price": "7.50",
+              "favorite": false,
+              "preparation": ["vegan", "vegetarian", "organic", "local", "raw"],
+              "contains": [],
+              "mayContain": ["treenut", "peanut", "soya", "sesame"]
+            },
+            {
+              "title": "Fruity Ice cream",
+              "snippet": "Homemade ice cream.",
+              "price": "5.50",
+              "favorite": false,
+              "preparation": ["organic", "vegetarian", "local"],
+              "contains": ["milk"],
+              "mayContain": ["peanut", "soya"]
+            },
+            {
+              "title": "Apple Pie",
+              "snippet": "Homemade apple pie with vanilla ice cream and whipped cream.",
+              "price": "4.50",
+              "favorite": false,
+              "preparation": ["organic", "vegetarian", "local"],
+              "contains": ["wheat", "eggs", "milk"],
+              "mayContain": ["peanut", "lupin"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Daily Menu",
+      "hashUrl": "daily-menu",
+      "snippet": "Served all day.",
+      "subitems": [
+        {
+          "title": "Appetizers",
+          "snippet": "Select 1",
+          "dishes": [
+            {
+              "title": "Omelette with vegetables",
+              "snippet": "Local eggs, local vegetables and green peppers.",
+              "price": "7.50",
+              "favorite": false,
+              "preparation": ["organic", "vegetarian", "local"],
+              "contains": ["milk", "eggs"],
+              "mayContain": ["peanut", "sesame", "treenut"]
+            },
+            {
+              "title": "Mixed Tapas",
+              "snippet": "A tasty starter, choose from fish, meat, vegetarian, vegan or mixed",
+              "price": "7.50",
+              "favorite": false,
+              "preparation": ["organic", "vegetarian", "vegan", "local"],
+              "contains": ["milk"],
+              "mayContain": [
+                "wheat",
+                "soya",
+                "treenut",
+                "fish",
+                "peanut",
+                "celery",
+                "crustacens"
+              ]
+            },
+            {
+              "title": "Farmer Salad",
+              "snippet": "A Greek salad with lattus, tomato, unions, feta and olives.",
+              "price": "12.50",
+              "favorite": false,
+              "preparation": ["organic", "raw", "vegan", "vegetarian", "local"],
+              "contains": [],
+              "mayContain": ["soya", "sesame", "milk", "wheat"]
+            }
+          ]
+        },
+        {
+          "title": "Main Course",
+          "snippet": "Select 1",
+          "dishes": [
+            {
+              "title": "Veggie Burger",
+              "snippet": "Homemade burger with secret ingredients.",
+              "price": "7.50",
+              "favorite": false,
+              "preparation": ["organic", "vegetarian", "vegan", "local"],
+              "contains": [
+                "peanut",
+                "celery",
+                "treenut",
+                "soya",
+                "wheat",
+                "sesame"
+              ],
+              "mayContain": ["lupin", "mustard"]
+            },
+            {
+              "title": "Paella",
+              "snippet": "Homemade Paella family recipe",
+              "price": "9.50",
+              "favorite": false,
+              "preparation": ["organic", "local"],
+              "contains": ["fish", "molluscs"],
+              "mayContain": ["eggs", "sesame", "treenut"]
+            },
+            {
+              "title": "Spicy BBQ Wings",
+              "snippet": "House special. served with homemade hot sauce.",
+              "price": "12.50",
+              "favorite": false,
+              "preparation": ["organic", "local"],
+              "contains": ["sesame"],
+              "mayContain": ["peanut", "lupin", "treenut"]
+            }
+          ]
+        },
+        {
+          "title": "Desserts",
+          "snippet": "Select 0 - 1",
+          "dishes": [
+            {
+              "title": "Apple Pie",
+              "snippet": "Homemade apple pie with vanilla ice cream and whipped cream.",
+              "price": "7.50",
+              "favorite": false,
+              "preparation": ["organic", "vegetarian", "local"],
+              "contains": ["milk", "eggs", "wheat"],
+              "mayContain": ["lupin", "peanut"]
+            },
+            {
+              "title": "Tiramisu",
+              "snippet": "Homemade vegan tiramisu",
+              "price": "7.50",
+              "favorite": false,
+              "preparation": ["vegan", "vegetarian", "organic", "local", "raw"],
+              "contains": [],
+              "mayContain": ["treenut", "peanut", "soya", "sesame"]
+            },
+            {
+              "title": "Fruity Ice cream",
+              "snippet": "Homemade ice cream.",
+              "price": "5.50",
+              "favorite": false,
+              "preparation": ["organic", "vegetarian", "local"],
+              "contains": ["milk"],
+              "mayContain": ["peanut", "soya"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
